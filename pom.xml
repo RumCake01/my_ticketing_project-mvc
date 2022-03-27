@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.cydeo</groupId>
-    <artifactId>ticketing-project-mvc</artifactId>
+    <artifactId>my_ticketing_project-mvc</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>ticketing-project-mvc</name>
+    <name>my_ticketing_project-mvc</name>
     <description>my_ticketing_project-mvc</description>
     <properties>
         <java.version>11</java.version>

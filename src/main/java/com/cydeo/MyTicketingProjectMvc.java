@@ -1,13 +1,13 @@
-package com.cydeo.my_ticketing_projectmvc;
+package com.cydeo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class MyTicketingProjectMvcApplication {
+public class MyTicketingProjectMvc {
 
     public static void main(String[] args) {
-        SpringApplication.run(MyTicketingProjectMvcApplication.class, args);
+        SpringApplication.run(MyTicketingProjectMvc.class, args);
     }
 
 }
