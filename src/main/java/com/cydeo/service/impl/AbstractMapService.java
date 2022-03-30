@@ -30,6 +30,10 @@ public abstract class AbstractMapService<T,ID> {
        return  map.get(id);
     }
 
+    void update(ID id, T object){
+        map.put(id, object);
+    }
+
 
 
 

@@ -25,6 +25,12 @@ public class UserRoleImpl extends AbstractMapService<UserDTO, String> implements
     }
 
     @Override
+    public void update(UserDTO object) {
+        super.update(object.getUserName(), object);
+
+    }
+
+    @Override
     public UserDTO findById(String id) {
         return super.findById(id);
     }
